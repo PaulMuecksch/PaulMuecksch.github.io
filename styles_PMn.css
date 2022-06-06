@@ -48,6 +48,7 @@ article {
 
 aside {
     background: #CFDDFF;
+    height: 12cm;
     flex: 3 1 0%;
     order: 2;
 }
