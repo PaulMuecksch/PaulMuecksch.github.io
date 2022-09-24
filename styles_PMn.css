@@ -48,9 +48,10 @@ article {
 
 aside {
     background: #CFDDFF;
-    height: 12cm;
+    height: 15cm;
     flex: 3 1 0%;
     order: 2;
+    /* font-size: 16px; */
 }
 
 p.justify{
@@ -126,7 +127,8 @@ article {
 }
 
 aside { 
-    height: 12cm;
+    height: 14cm;
+    /* height: auto; */
     margin: 2em 1em;
 }
 
