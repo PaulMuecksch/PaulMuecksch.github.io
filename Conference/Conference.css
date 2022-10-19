@@ -157,9 +157,13 @@ nav a, #styleswitcher button {
   text-decoration: none;
 }
 
+nav a:visited {
+  color: rgb(0, 0, 0);
+}
+
 nav a:hover, nav a:focus, #styleswitcher button:hover, #styleswitcher button:focus {
-    background:  black;
-    color: #000000;;
+    background:  #494646;
+    color: #FFFFFF;;
 }
 
 
@@ -174,7 +178,7 @@ a:link {
 
 a:visited {
     text-decoration: none;
-    color: #000;
+    color: rgb(2, 0, 143);
 }
 
 a:hover {
