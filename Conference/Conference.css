@@ -1,0 +1,184 @@
+
+@charset "utf-8";
+
+html {
+    color: black;	
+    font-family: arial;
+}
+
+body {
+    margin: 0.5em auto;
+    max-width: 30cm;
+}
+
+table.center {
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+ul.intend1 {
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+main {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+article {
+    padding-left: 2cm;
+    flex: 1 1 60%;
+    order: 2;
+}
+
+aside {
+    flex: 1 1 15%;
+    order: 3;
+}
+
+
+footer{ 
+    text-align: center;
+    /* font-size: small; */
+    /* text-align: right; */
+}
+
+hr.new1 {
+    margin-left: 2cm;
+    margin-right: 2cm;
+}
+
+p.justify{
+    text-align: justify;
+}
+p.center{
+    text-align: center;
+}
+details > summary {
+  list-style: none;
+}
+details > summary::-webkit-details-marker {
+  display: none;
+}
+/*
+details summary::-webkit-details-marker {
+  display:none;
+}
+*/
+details > summary.pointer {
+        cursor: help;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+/*
+  border-bottom: 1px dotted black;
+*/
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 150px;
+  /* background-color: #324981; */
+  /* color: #fff; */
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: -5px;
+  right: 110%;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+header {
+    /* color: #FFFFFF;	
+    background: #11112F; */
+}
+h1, h2 {
+    text-align: center;
+}
+
+h1.m {
+    text-align: inline:
+}
+
+article {
+    padding: 0.0em 2em;
+    padding: 0.0em 2em;
+}
+
+aside { 
+    /* height: 14cm; */
+    height: auto;    
+    padding: 0.0em 2em;
+
+}
+
+header nav {
+    text-align: center;
+    font-size: large;
+    /* background: #c8cdd8; */
+    /* color: #FFFFFF; */
+}
+nav, nav ul, nav li{
+    padding: 1 1em;
+}
+nav ul {
+  display: flex; 
+}
+nav li {
+  list-style-type:none;
+}
+nav a[aria-current=page] {
+	font-variant:small-caps;
+	font-weight:bold;
+}
+#styleswitcher  ul {
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+nav a, #styleswitcher button {
+  display:inline;
+  /* color: #FFFFFF; */
+  margin-bottom: 0.2em;
+  padding: 0.2em 1em;
+  text-decoration: none;
+}
+
+nav a:hover, nav a:focus, #styleswitcher button:hover, #styleswitcher button:focus {
+    background:  black;
+    color: #ffffff;;
+}
+
+
+nav a:hover {
+    text-decoration: none;
+}
+
+a:link {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    /* text-decoration: underline; */
+}
+
+a:active {
+    /* text-decoration: underline; */
+}
