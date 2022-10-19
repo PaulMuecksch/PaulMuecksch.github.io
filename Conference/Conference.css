@@ -127,7 +127,7 @@ header nav {
     text-align: center;
     font-size: large;
     /* background: #c8cdd8; */
-    /* color: #FFFFFF; */
+    color: #000000;
 }
 nav, nav ul, nav li{
     padding: 1 1em;
