@@ -5,6 +5,7 @@ html {
     background: #324981;
     color: black;	
     font-family: arial;
+    /* font-size: 14pt; */
 }
 
 body {
@@ -127,7 +128,7 @@ article {
 }
 
 aside { 
-    height: 16cm;
+    height: 14cm;
     /* height: auto; */
     margin: 2em 1em;
 }
