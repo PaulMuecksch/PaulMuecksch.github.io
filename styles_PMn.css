@@ -49,7 +49,7 @@ article {
 
 aside {
     background: #CFDDFF;
-    height: 15cm;
+    height: 20cm;
     flex: 3 1 0%;
     order: 2;
     /* font-size: 16px; */
@@ -128,7 +128,7 @@ article {
 }
 
 aside { 
-    height: 14cm;
+    height: 15cm;
     /* height: auto; */
     margin: 2em 1em;
 }
