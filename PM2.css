@@ -8,7 +8,7 @@ html {
 
 body {
     margin: 0.5em auto;
-    max-width: 28cm;
+    max-width: 32cm;
 }
 
 table.center {
@@ -28,7 +28,7 @@ main {
 }
 
 article {
-    padding-left: 2cm;
+    /* padding-left: 2cm; */
     flex: 1 1 55%;
     order: 2;
 }
@@ -36,7 +36,7 @@ article {
 aside {
     /* text-align: justify; */
     flex: 1 1 20%;
-    order: 3;
+    order: 1;
 }
 
 
@@ -118,7 +118,10 @@ h2.m {
 }
 
 article {
-    padding: 0.0em 2em;
+  /* padding-left: 1.cm;
+  padding-right: 3.cm; */
+  /* padding-right: 3cm; */
+    padding: 0.0em 4em;
     /* padding: 0.0em 2em; */
 }
 
@@ -183,12 +186,12 @@ nav a:hover {
 
 a:link {
   text-decoration: none;
-  color: #000;
+  color: #005469;
 }
 
 a:visited {
     text-decoration: none;
-    color: rgb(2, 0, 143);
+    color: rgb(0, 20, 136);
 }
 
 a:hover {
