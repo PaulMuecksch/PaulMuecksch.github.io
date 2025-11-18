@@ -129,6 +129,11 @@ aside {
 
 }
 
+footer{ 
+    font-size: small;
+    text-align: right;
+}
+
 header nav {
     text-align: center;
     font-size: larger;
