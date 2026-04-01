@@ -40,6 +40,11 @@
 <div class="ContSSBlock">
 <span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap5_mj.html#X808977C7824120DF">5.2-1 IsFormal</a></span>
 </div></div>
+<div class="ContSect"><span class="tocline"><span class="nocss">&nbsp;</span><a href="chap5_mj.html#X8070A6CF85A00A70">5.3 <span class="Heading">Simplicial arrangements</span></a>
+</span>
+<div class="ContSSBlock">
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap5_mj.html#X7D69068B7DA44D16">5.3-1 HArrIsSimplicial</a></span>
+</div></div>
 </div>
 
 <h3>5 <span class="Heading">Further arrangement properties</span></h3>
@@ -228,6 +233,29 @@ true
 true
 <span class="GAPprompt">gap&gt;</span> <span class="GAPinput">IsFormal(A2);</span>
 false
+</pre></div>
+
+<p><a id="X8070A6CF85A00A70" name="X8070A6CF85A00A70"></a></p>
+
+<h4>5.3 <span class="Heading">Simplicial arrangements</span></h4>
+
+<p><a id="X7D69068B7DA44D16" name="X7D69068B7DA44D16"></a></p>
+
+<h5>5.3-1 HArrIsSimplicial</h5>
+
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; HArrIsSimplicial</code>( <var class="Arg">A</var> )</td><td class="tdright">(&nbsp;property&nbsp;)</td></tr></table></div>
+<p>Returns: true or false.</p>
+
+<p>Determines whether the real arrangement <var class="Arg">A</var> is <em>simplicial</em>, i.e. if all chambers are simplicial.</p>
+
+
+<div class="example"><pre>
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">A:=HyperplaneArrangement([[1,0,0],[0,1,0],[0,0,1],[1,1,0],[0,1,1]]); HArrIsSimplicial(A);</span>
+&lt;HyperplaneArrangement: 5 hyperplanes in 3-space&gt;
+false
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">A:=HyperplaneArrangement([[1,0,0],[0,1,0],[0,0,1],[1,1,0],[0,1,1],[1,1,1]]); HArrIsSimplicial(A);</span>
+&lt;HyperplaneArrangement: 6 hyperplanes in 3-space&gt;
+true
 </pre></div>
 
 
